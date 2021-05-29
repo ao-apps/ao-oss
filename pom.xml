@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ao-oss - Open-source tools to assist developers in writing better software faster.
+Copyright (C) 2021  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
+
+This file is part of ao-oss.
+
+ao-oss is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ao-oss is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.aoapps</groupId><artifactId>ao-oss-parent</artifactId><version>1.16.0-SNAPSHOT</version>
+		<relativePath>parent/pom.xml</relativePath>
+	</parent>
+
+	<groupId>com.aoapps</groupId><artifactId>ao-oss</artifactId><version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>AO OSS</name>
+	<url>https://oss.aoapps.com/</url>
+	<description>Open-source tools to assist developers in writing better software faster.</description>
+	<inceptionYear>2021</inceptionYear>
+
+	<licenses>
+		<license>
+			<name>GNU General Lesser Public License (LGPL) version 3.0</name>
+			<url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<name>AO Industries, Inc.</name>
+		<url>https://aoindustries.com/</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<name>AO Industries, Inc.</name>
+			<email>support@aoindustries.com</email>
+			<url>https://aoindustries.com/</url>
+			<organization>AO Industries, Inc.</organization>
+			<organizationUrl>https://aoindustries.com/</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/aoindustries/ao-oss.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/ao-oss.git</developerConnection>
+		<url>https://github.com/aoindustries/ao-oss</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/aoindustries/ao-oss/issues</url>
+	</issueManagement>
+
+	<modules>
+		<module>book</module>
+		<module>parent</module>
+		<module>parent/book</module>
+		<module>appcluster</module>
+		<module>badges-1.x</module>
+		<module>badges-1.x/book</module>
+		<module>badges</module>
+		<module>badges/book</module>
+		<module>collections</module>
+		<module>collections/book</module>
+		<module>collections-transformers</module>
+		<module>collections-transformers/book</module>
+		<module>concurrent</module>
+		<module>concurrent/book</module>
+		<module>cron</module>
+		<module>cron/book</module>
+		<module>dao</module>
+		<module>dbc</module>
+		<module>dbc/book</module>
+		<module>encoding</module>
+		<module>encoding/book</module>
+		<module>encoding/devel</module>
+		<module>encoding-servlet</module>
+		<module>encoding-servlet/book</module>
+		<module>encoding-taglib</module>
+		<module>encoding-taglib/book</module>
+		<module>encoding-taglib/devel</module>
+		<module>fluent-html</module>
+		<module>fluent-html/book</module>
+		<module>fluent-html-any</module>
+		<module>fluent-html-any/book</module>
+		<module>fluent-html-any/devel</module>
+		<module>fluent-html-servlet</module>
+		<module>fluent-html-servlet/book</module>
+		<module>fluent-html-util</module>
+		<module>fluent-html-util/book</module>
+		<module>hodgepodge</module>
+		<module>hodgepodge/book</module>
+		<module>hodgepodge/devel</module>
+		<module>io-buffer</module>
+		<module>io-buffer/book</module>
+		<module>io-filesystems</module>
+		<module>io-filesystems/book</module>
+		<module>io-filesystems-posix</module>
+		<module>io-filesystems-posix/book</module>
+		<module>io-posix</module>
+		<module>io-posix/book</module>
+		<module>javadoc-offline</module>
+		<module>javadoc-offline/book</module>
+		<module>javadoc-resources</module>
+		<module>javadoc-resources/book</module>
+		<module>javaee-web-api-bom</module>
+		<module>javaee-web-api-bom/book</module>
+		<module>lang</module>
+		<module>lang/book</module>
+		<module>lang/devel</module>
+		<module>messaging</module>
+		<module>mime-mappings</module>
+		<module>mime-mappings/book</module>
+		<module>net-partial-url</module>
+		<module>net-partial-url/book</module>
+		<module>net-partial-url-servlet</module>
+		<module>net-partial-url-servlet/book</module>
+		<module>net-path-space</module>
+		<module>net-path-space/book</module>
+		<module>net-types</module>
+		<module>net-types/book</module>
+		<module>net-types/devel</module>
+		<module>payments</module>
+		<module>persistence</module>
+		<module>persistence/book</module>
+		<module>security</module>
+		<module>security/book</module>
+		<module>servlet-filter</module>
+		<module>servlet-filter/book</module>
+		<module>servlet-firewall</module>
+		<module>servlet-last-modified</module>
+		<module>servlet-last-modified/book</module>
+		<module>servlet-subrequest</module>
+		<module>servlet-subrequest/book</module>
+		<module>servlet-util</module>
+		<module>servlet-util/book</module>
+		<module>servlet-util/devel</module>
+		<module>sql</module>
+		<module>sql/book</module>
+		<module>sql/devel</module>
+		<module>sql-failfast</module>
+		<module>sql-failfast/book</module>
+		<module>sql-pool</module>
+		<module>sql-pool/book</module>
+		<module>sql-tracker</module>
+		<module>sql-tracker/book</module>
+		<module>sql-wrapper</module>
+		<module>sql-wrapper/book</module>
+		<module>style</module>
+		<module>style/book</module>
+		<module>taglib</module>
+		<module>taglib/book</module>
+		<module>taglib/devel</module>
+		<module>tempfiles</module>
+		<module>tempfiles/book</module>
+		<module>tempfiles-servlet</module>
+		<module>tempfiles-servlet/book</module>
+		<module>tld-parser</module>
+		<module>tld-parser/book</module>
+		<module>tlds</module>
+		<module>tlds/book</module>
+		<module>web-framework</module>
+		<module>web-framework/book</module>
+		<module>web-resources</module>
+		<module>website</module>
+	</modules>
+</project>

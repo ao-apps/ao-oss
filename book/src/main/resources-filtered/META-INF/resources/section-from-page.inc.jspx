@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ao-oss - Open-source tools to assist developers in writing better software faster.
+Copyright (C) 2021  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
+
+This file is part of ao-oss.
+
+ao-oss is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ao-oss is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
+-->
+<!--
+Captures and builds a section from a page given its path.
+Does not write the lists during captures so these do not count as "links to".
+
+Arguments:
+	arg.bookName  Optional book of the page
+	arg.page      The path to the page
+-->
+<jsp:root
+	xmlns:ao="https://oss.aoapps.com/taglib/"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:core="https://semanticcms.com/core/taglib/"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:section="https://semanticcms.com/section/taglib/"
+	version="2.1"
+>
+	<jsp:directive.page language="java" pageEncoding="UTF-8" />
+	<jsp:directive.page session="false" />
+	<c:if test="${core:getCaptureLevel()!='page'}">
+		<c:choose>
+			<c:when test="${empty arg.bookName}">
+				<c:set var="page" value="${core:capturePage(arg.page, 'page')}" />
+			</c:when>
+			<c:otherwise>
+				<c:set var="page" value="${core:capturePageInBook(arg.bookName, arg.page, 'page')}" />
+			</c:otherwise>
+		</c:choose>
+		<!-- TODO: section as link to page -->
+		<section:nav label="#{page}">
+			<ao:include page="ul-from-children.inc.jspx" arg.page="${page}" />
+		</section:nav>
+	</c:if>
+</jsp:root>

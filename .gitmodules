@@ -1,0 +1,216 @@
+[submodule "appcluster"]
+	path = appcluster
+	url = git@github.com:aoindustries/ao-appcluster.git
+	branch = master
+[submodule "badges"]
+	path = badges
+	url = git@github.com:aoindustries/ao-badges.git
+	branch = master
+[submodule "badges-1.x"]
+	path = badges-1.x
+	url = git@github.com:aoindustries/ao-badges.git
+	branch = 1.x
+[submodule "collections"]
+	path = collections
+	url = git@github.com:aoindustries/ao-collections.git
+	branch = master
+[submodule "collections-transformers"]
+	path = collections-transformers
+	url = git@github.com:aoindustries/ao-collections-transformers.git
+	branch = master
+[submodule "concurrent"]
+	path = concurrent
+	url = git@github.com:aoindustries/ao-concurrent.git
+	branch = master
+[submodule "cron"]
+	path = cron
+	url = git@github.com:aoindustries/ao-cron.git
+	branch = master
+[submodule "dao"]
+	path = dao
+	url = git@github.com:aoindustries/ao-dao.git
+	branch = master
+[submodule "dbc"]
+	path = dbc
+	url = git@github.com:aoindustries/ao-dbc.git
+	branch = master
+[submodule "encoding"]
+	path = encoding
+	url = git@github.com:aoindustries/ao-encoding.git
+	branch = master
+[submodule "encoding-servlet"]
+	path = encoding-servlet
+	url = git@github.com:aoindustries/ao-encoding-servlet.git
+	branch = master
+[submodule "encoding-taglib"]
+	path = encoding-taglib
+	url = git@github.com:aoindustries/ao-encoding-taglib.git
+	branch = master
+[submodule "fluent-html"]
+	path = fluent-html
+	url = git@github.com:aoindustries/ao-fluent-html.git
+	branch = master
+[submodule "fluent-html-any"]
+	path = fluent-html-any
+	url = git@github.com:aoindustries/ao-fluent-html-any.git
+	branch = master
+[submodule "fluent-html-servlet"]
+	path = fluent-html-servlet
+	url = git@github.com:aoindustries/ao-fluent-html-servlet.git
+	branch = master
+[submodule "fluent-html-util"]
+	path = fluent-html-util
+	url = git@github.com:aoindustries/ao-fluent-html-util.git
+	branch = master
+[submodule "hodgepodge"]
+	path = hodgepodge
+	url = git@github.com:aoindustries/ao-hodgepodge.git
+	branch = master
+[submodule "io-buffer"]
+	path = io-buffer
+	url = git@github.com:aoindustries/ao-io-buffer.git
+	branch = master
+[submodule "io-filesystems"]
+	path = io-filesystems
+	url = git@github.com:aoindustries/ao-io-filesystems.git
+	branch = master
+[submodule "io-filesystems-posix"]
+	path = io-filesystems-posix
+	url = git@github.com:aoindustries/ao-io-filesystems-posix.git
+	branch = master
+[submodule "io-posix"]
+	path = io-posix
+	url = git@github.com:aoindustries/ao-io-posix.git
+	branch = master
+[submodule "javadoc-offline"]
+	path = javadoc-offline
+	url = git@github.com:aoindustries/ao-javadoc-offline.git
+	branch = master
+[submodule "javadoc-resources"]
+	path = javadoc-resources
+	url = git@github.com:aoindustries/ao-javadoc-resources.git
+	branch = master
+[submodule "javaee-web-api-bom"]
+	path = javaee-web-api-bom
+	url = git@github.com:aoindustries/javaee-web-api-bom.git
+	branch = master
+[submodule "lang"]
+	path = lang
+	url = git@github.com:aoindustries/ao-lang.git
+	branch = master
+[submodule "messaging"]
+	path = messaging
+	url = git@github.com:aoindustries/ao-messaging.git
+	branch = master
+[submodule "mime-mappings"]
+	path = mime-mappings
+	url = git@github.com:aoindustries/ao-mime-mappings.git
+	branch = master
+[submodule "net-partial-url"]
+	path = net-partial-url
+	url = git@github.com:aoindustries/ao-net-partial-url.git
+	branch = master
+[submodule "net-partial-url-servlet"]
+	path = net-partial-url-servlet
+	url = git@github.com:aoindustries/ao-net-partial-url-servlet.git
+	branch = master
+[submodule "net-path-space"]
+	path = net-path-space
+	url = git@github.com:aoindustries/ao-net-path-space.git
+	branch = master
+[submodule "net-types"]
+	path = net-types
+	url = git@github.com:aoindustries/ao-net-types.git
+	branch = master
+[submodule "parent"]
+	path = parent
+	url = git@github.com:aoindustries/ao-oss-parent.git
+	branch = master
+[submodule "payments"]
+	path = payments
+	url = git@github.com:aoindustries/ao-payments.git
+	branch = master
+[submodule "persistence"]
+	path = persistence
+	url = git@github.com:aoindustries/ao-persistence.git
+	branch = master
+[submodule "security"]
+	path = security
+	url = git@github.com:aoindustries/ao-security.git
+	branch = master
+[submodule "servlet-filter"]
+	path = servlet-filter
+	url = git@github.com:aoindustries/ao-servlet-filter.git
+	branch = master
+[submodule "servlet-firewall"]
+	path = servlet-firewall
+	url = git@github.com:aoindustries/ao-servlet-firewall.git
+	branch = master
+[submodule "servlet-last-modified"]
+	path = servlet-last-modified
+	url = git@github.com:aoindustries/ao-servlet-last-modified.git
+	branch = master
+[submodule "servlet-subrequest"]
+	path = servlet-subrequest
+	url = git@github.com:aoindustries/ao-servlet-subrequest.git
+	branch = master
+[submodule "servlet-util"]
+	path = servlet-util
+	url = git@github.com:aoindustries/ao-servlet-util.git
+	branch = master
+[submodule "sql"]
+	path = sql
+	url = git@github.com:aoindustries/ao-sql.git
+	branch = master
+[submodule "sql-failfast"]
+	path = sql-failfast
+	url = git@github.com:aoindustries/ao-sql-failfast.git
+	branch = master
+[submodule "sql-pool"]
+	path = sql-pool
+	url = git@github.com:aoindustries/ao-sql-pool.git
+	branch = master
+[submodule "sql-tracker"]
+	path = sql-tracker
+	url = git@github.com:aoindustries/ao-sql-tracker.git
+	branch = master
+[submodule "sql-wrapper"]
+	path = sql-wrapper
+	url = git@github.com:aoindustries/ao-sql-wrapper.git
+	branch = master
+[submodule "style"]
+	path = style
+	url = git@github.com:aoindustries/ao-style.git
+	branch = master
+[submodule "taglib"]
+	path = taglib
+	url = git@github.com:aoindustries/ao-taglib.git
+	branch = master
+[submodule "tempfiles"]
+	path = tempfiles
+	url = git@github.com:aoindustries/ao-tempfiles.git
+	branch = master
+[submodule "tempfiles-servlet"]
+	path = tempfiles-servlet
+	url = git@github.com:aoindustries/ao-tempfiles-servlet.git
+	branch = master
+[submodule "tld-parser"]
+	path = tld-parser
+	url = git@github.com:aoindustries/ao-tld-parser.git
+	branch = master
+[submodule "tlds"]
+	path = tlds
+	url = git@github.com:aoindustries/ao-tlds.git
+	branch = master
+[submodule "web-framework"]
+	path = web-framework
+	url = git@github.com:aoindustries/ao-web-framework.git
+	branch = master
+[submodule "web-resources"]
+	path = web-resources
+	url = git@github.com:aoindustries/ao-web-resources.git
+	branch = master
+[submodule "website"]
+	path = website
+	url = git@github.com:aoindustries/ao-oss-website.git
+	branch = master
