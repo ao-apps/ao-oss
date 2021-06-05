@@ -74,8 +74,6 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 
 	<modules>
 		<module>book</module>
-		<module>parent</module>
-		<module>parent/book</module>
 		<module>appcluster</module>
 		<module>badges-1.x</module>
 		<module>badges-1.x/book</module>
@@ -124,8 +122,6 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 		<module>javadoc-offline/book</module>
 		<module>javadoc-resources</module>
 		<module>javadoc-resources/book</module>
-		<module>javaee-web-api-bom</module>
-		<module>javaee-web-api-bom/book</module>
 		<module>lang</module>
 		<module>lang/book</module>
 		<module>lang/devel</module>
@@ -141,6 +137,8 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 		<module>net-types</module>
 		<module>net-types/book</module>
 		<module>net-types/devel</module>
+		<module>parent</module>
+		<module>parent/book</module>
 		<module>payments</module>
 		<module>persistence</module>
 		<module>persistence/book</module>
@@ -183,6 +181,8 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 		<module>web-framework</module>
 		<module>web-framework/book</module>
 		<module>web-resources</module>
+		<module>javaee-web-api-bom</module>
+		<module>javaee-web-api-bom/book</module>
 		<module>website</module>
 	</modules>
 </project>
