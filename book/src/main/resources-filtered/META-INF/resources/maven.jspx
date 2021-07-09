@@ -32,11 +32,13 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 	<core:page
 		title="Maven Build"
 		datePublished="2021-06-02T00:59:52-05:00"
+		dateModified="2021-07-09T04:08:52-05:00"
 	>
 		<!-- Note: Changes here must also be applied to README.md -->
 		<core:child book="/javadoc-offline" page="/index.jspx" />
 		<core:child book="/javadoc-resources" page="/index.jspx" />
 		<core:child book="/parent" page="/index.jspx" />
+		<core:child book="/pgp-keys-map" page="/index.jspx" />
 		<core:child book="/javaee-web-api-bom" page="/index.jspx" />
 		<ao:include page="ul-from-children.inc.jspx" arg.page="${currentPage}" />
 	</core:page>

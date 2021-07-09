@@ -41,6 +41,7 @@ Open-source tools to assist developers in writing better software faster.
 * [AO Javadoc Offline](https://github.com/aoindustries/ao-javadoc-offline)
 * [AO Javadoc Resources](https://github.com/aoindustries/ao-javadoc-resources)
 * [AO OSS Parent](https://github.com/aoindustries/ao-oss-parent)
+* [AO PGP Keys Map](https://github.com/aoindustries/pgp-keys-map)
 * [Java™ EE Web Profile BOM](https://github.com/aoindustries/javaee-web-api-bom)
 ### Messaging
 * [AO Messaging](https://github.com/aoindustries/ao-messaging)

@@ -134,6 +134,10 @@
 	path = persistence
 	url = git@github.com:aoindustries/ao-persistence.git
 	branch = master
+[submodule "pgp-keys-map"]
+	path = pgp-keys-map
+	url = git@github.com:aoindustries/pgp-keys-map.git
+	branch = master
 [submodule "security"]
 	path = security
 	url = git@github.com:aoindustries/ao-security.git

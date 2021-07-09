@@ -72,6 +72,53 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 		<url>https://github.com/aoindustries/ao-oss/issues</url>
 	</issueManagement>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<!--
+							Verify the two copies of pgp-keys-map.list (required to avoid cyclic dependency) match.
+							See http://maven.40175.n5.nabble.com/trying-to-find-testing-plugin-which-can-compare-two-files-td75639.html
+						-->
+						<id>verify-pgp-keys-map-match</id><phase>initialize</phase><goals><goal>run</goal></goals>
+						<configuration>
+							<target>
+								<available
+									file="${project.basedir}/parent/src/main/resources/com/aoapps/pgp/keys/map/pgp-keys-map.list"
+									property="isActualAvailable"
+								/>
+								<fail
+									unless="isActualAvailable"
+									message="${project.basedir}/parent/src/main/resources/com/aoapps/pgp/keys/map/pgp-keys-map.list does not exist!"
+								/>
+								<available
+									file="${project.basedir}/pgp-keys-map/src/main/resources/com/aoapps/pgp/keys/map/pgp-keys-map.list"
+									property="isExpectedAvailable"
+								/>
+								<fail
+									unless="isExpectedAvailable"
+									message="${project.basedir}/pgp-keys-map/src/main/resources/com/aoapps/pgp/keys/map/pgp-keys-map.list does not exist!"
+								/>
+								<condition property="files.match">
+									<filesmatch
+										file1="${project.basedir}/parent/src/main/resources/com/aoapps/pgp/keys/map/pgp-keys-map.list"
+										file2="${project.basedir}/pgp-keys-map/src/main/resources/com/aoapps/pgp/keys/map/pgp-keys-map.list"
+									/>
+								</condition>
+								<fail
+									unless="files.match"
+									message="${project.basedir}/parent/src/main/resources/com/aoapps/pgp/keys/map/pgp-keys-map.list does not match ${project.basedir}/pgp-keys-map/src/main/resources/com/aoapps/pgp/keys/map/pgp-keys-map.list!"
+								/>
+							</target>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
 	<modules>
 		<module>book</module>
 		<module>appcluster</module>
@@ -142,6 +189,8 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 		<module>payments</module>
 		<module>persistence</module>
 		<module>persistence/book</module>
+		<module>pgp-keys-map</module>
+		<module>pgp-keys-map/book</module>
 		<module>security</module>
 		<module>security/book</module>
 		<module>servlet-filter</module>
