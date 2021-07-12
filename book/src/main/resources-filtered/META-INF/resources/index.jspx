@@ -34,7 +34,7 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 		title="@{documented.name}"
 		description="@{documented.description}"
 		datePublished="2021-05-28T22:51:12-05:00"
-		dateModified="2021-05-29T03:07:27-05:00"
+		dateModified="2021-07-12T13:25:42-05:00"
 	>
 		<core:child page="changelog.jspx" />
 		<!-- Categories -->
@@ -53,6 +53,8 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 				arg.packagingStatus="active"
 				arg.semanticVersioning="2.0.0"
 				arg.license="lgpl-3.0"
+				arg.scmUrl="@{project.scm.url}"
+				arg.githubBuildWorkflow="Build"
 			/>
 		</header>
 		<p>
