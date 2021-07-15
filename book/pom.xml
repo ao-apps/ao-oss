@@ -82,6 +82,11 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 		<url>https://github.com/aoindustries/ao-oss/issues</url>
 	</issueManagement>
 
+	<ciManagement>
+		<system>GitHub Actions</system>
+		<url>https://github.com/aoindustries/ao-oss/actions</url>
+	</ciManagement>
+
 	<build>
 		<plugins>
 			<plugin>
