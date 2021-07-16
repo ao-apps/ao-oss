@@ -7,6 +7,7 @@
 [![license: LGPL v3](https://oss.aoapps.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 [![Build](https://github.com/aoindustries/ao-oss/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/ao-oss/actions?query=workflow%3ABuild)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.aoapps/ao-oss/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.aoapps/ao-oss)
 
 Open-source tools to assist developers in writing better software faster.
 
