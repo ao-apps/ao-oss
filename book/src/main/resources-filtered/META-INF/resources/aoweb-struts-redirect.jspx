@@ -37,7 +37,7 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 	>
 		<core:parent page="web-development.jspx" />
 		<c:if test="${core:getCaptureLevel()==null}">
-			<ao:redirect href="https://aoindustries/aoweb-struts/" statusCode="301" />
+			<ao:redirect href="https://aoindustries.com/aoweb-struts/" statusCode="301" />
 		</c:if>
 	</core:page>
 </jsp:root>
