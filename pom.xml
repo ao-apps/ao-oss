@@ -35,7 +35,7 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 	<properties>
 		<!-- SonarQube -->
 		<sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
-		<sonar.organization>aoindustries</sonar.organization>
+		<sonar.organization>ao-apps</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
@@ -68,20 +68,20 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/ao-oss.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/ao-oss.git</developerConnection>
-		<url>https://github.com/aoindustries/ao-oss</url>
+		<connection>scm:git:git://github.com/ao-apps/ao-oss.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/ao-oss.git</developerConnection>
+		<url>https://github.com/ao-apps/ao-oss</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/ao-oss/issues</url>
+		<url>https://github.com/ao-apps/ao-oss/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/ao-oss/actions</url>
+		<url>https://github.com/ao-apps/ao-oss/actions</url>
 	</ciManagement>
 
 	<build>
