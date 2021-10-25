@@ -38,7 +38,7 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 	>
 		<core:parent page="payment-processing.jspx" />
 		<core:parent page="web-development.jspx" />
-		<c:if test="${core:getCaptureLevel()==null}">
+		<c:if test="${core:getCaptureLevel()==null and empty param.view}">
 			<ao:redirect href="https://oss.newmediaworks.com/payment-taglib/" statusCode="301" />
 		</c:if>
 	</core:page>

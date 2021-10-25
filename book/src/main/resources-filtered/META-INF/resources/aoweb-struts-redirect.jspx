@@ -36,7 +36,7 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 		datePublished="2021-06-02T00:59:52-05:00"
 	>
 		<core:parent page="web-development.jspx" />
-		<c:if test="${core:getCaptureLevel()==null}">
+		<c:if test="${core:getCaptureLevel()==null and empty param.view}">
 			<ao:redirect href="https://aoindustries.com/aoweb-struts/" statusCode="301" />
 		</c:if>
 	</core:page>
