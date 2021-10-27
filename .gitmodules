@@ -46,6 +46,10 @@
 	path = encoding-taglib
 	url = git@github.com:ao-apps/ao-encoding-taglib.git
 	branch = master
+[submodule "error-pages"]
+	path = error-pages
+	url = git@github.com:ao-apps/ao-error-pages.git
+	branch = master
 [submodule "fluent-html"]
 	path = fluent-html
 	url = git@github.com:ao-apps/ao-fluent-html.git

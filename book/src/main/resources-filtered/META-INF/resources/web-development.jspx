@@ -32,12 +32,13 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 	<core:page
 		title="Web Development"
 		datePublished="2016-10-17T22:21:00-05:00"
-		dateModified="2021-06-02T00:59:52-05:00"
+		dateModified="2021-10-26T22:28:21-05:00"
 	>
 		<!-- Note: Changes here must also be applied to README.md -->
 		<core:child book="/badges" page="/index.jspx" />
 		<core:child book="/encoding/servlet" page="/index.jspx" />
 		<core:child book="/encoding/taglib" page="/index.jspx" />
+		<core:child book="/error-pages" page="/index.jspx" />
 		<core:child book="/fluent-html" page="/index.jspx" />
 		<core:child book="/messaging/http/client-js" page="/index.jspx" />
 		<core:child book="/messaging/http/servlet" page="/index.jspx" />

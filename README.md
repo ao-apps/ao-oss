@@ -61,6 +61,7 @@ Open-source tools to assist developers in writing better software faster.
 * [AO Badges](https://github.com/ao-apps/ao-badges)
 * [AO Encoding Servlet](https://github.com/ao-apps/ao-encoding-servlet)
 * [AO Encoding Taglib](https://github.com/ao-apps/ao-encoding-taglib)
+* [AO Error Pages](https://github.com/ao-apps/ao-error-pages)
 * [AO Fluent HTML](https://github.com/ao-apps/ao-fluent-html)
 * [AO Messaging HTTP Client JS](https://github.com/ao-apps/ao-messaging-http-client-js)
 * [AO Messaging HTTP Servlet](https://github.com/ao-apps/ao-messaging-http-servlet)

@@ -157,6 +157,8 @@ along with ao-oss.  If not, see <http://www.gnu.org/licenses />.
 		<module>encoding-taglib</module>
 		<module>encoding-taglib/book</module>
 		<module>encoding-taglib/devel</module>
+		<module>error-pages</module>
+		<module>error-pages/book</module>
 		<module>fluent-html</module>
 		<module>fluent-html/book</module>
 		<module>fluent-html-any</module>
