@@ -80,9 +80,15 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
 	</issueManagement>
 
 	<ciManagement>
+		<system>Jenkins</system>
+		<url>https://jenkins.aoindustries.com/job/ao/job/oss/job/index/</url>
+	</ciManagement>
+	<!-- Only one allowed in POM:
+	<ciManagement>
 		<system>GitHub Actions</system>
 		<url>https://github.com/ao-apps/ao-oss/actions</url>
 	</ciManagement>
+	-->
 
 	<build>
 		<plugins>
@@ -130,6 +136,25 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
 			</plugin>
 		</plugins>
 	</build>
+
+	<profiles>
+		<profile>
+			<id>jenkins</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId><artifactId>maven-antrun-plugin</artifactId>
+						<executions>
+							<execution>
+								<!-- TODO: Check-out parent and pgp-keys-maps submodules then activate this again -->
+								<id>verify-pgp-keys-map-match</id><phase>none</phase>
+							</execution>
+						</executions>
+                    </plugin>
+				</plugins>
+			</build>
+		</profile>
+    </profiles>
 
 	<modules>
 		<module>book</module>
