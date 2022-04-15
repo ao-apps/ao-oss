@@ -178,6 +178,8 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
 		<module>badges-1.x/book</module>
 		<module>badges</module>
 		<module>badges/book</module>
+		<module>checkstyle-config</module>
+		<module>checkstyle-config/book</module>
 		<module>collections</module>
 		<module>collections/book</module>
 		<module>collections-transformers</module>

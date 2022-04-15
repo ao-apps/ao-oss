@@ -46,6 +46,7 @@ Open-source tools to assist developers in writing better software faster.
 * [AO TempFiles](https://github.com/ao-apps/ao-tempfiles)
 * [AO TLDs](https://github.com/ao-apps/ao-tlds)
 ### Maven
+* [AO Checkstyle Config](https://github.com/ao-apps/ao-checkstyle-config)
 * [AO Javadoc Offline](https://github.com/ao-apps/ao-javadoc-offline)
 * [AO Javadoc Resources](https://github.com/ao-apps/ao-javadoc-resources)
 * [AO OSS Parent](https://github.com/ao-apps/ao-oss-parent)

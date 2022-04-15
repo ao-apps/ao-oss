@@ -10,6 +10,10 @@
 	path = badges-1.x
 	url = git@github.com:ao-apps/ao-badges.git
 	branch = 1.x
+[submodule "checkstyle-config"]
+	path = checkstyle-config
+	url = git@github.com:ao-apps/ao-checkstyle-config.git
+	branch = master
 [submodule "collections"]
 	path = collections
 	url = git@github.com:ao-apps/ao-collections.git
