@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-oss - Open-source tools to assist developers in writing better software faster.
-Copyright (C) 2021  AO Industries, Inc.
+Copyright (C) 2021, 2022  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -26,22 +26,22 @@ Builds a <ul> from the children of the given page.
 Does not write the list during captures so these do not count as "links to".
 
 Arguments:
-	arg.page  The page object
+  arg.page  The page object
 -->
 <jsp:root
-	xmlns:ao="https://oss.aoapps.com/taglib/"
-	xmlns:c="http://java.sun.com/jsp/jstl/core"
-	xmlns:core="https://semanticcms.com/core/taglib/"
-	xmlns:jsp="http://java.sun.com/JSP/Page"
-	version="2.1"
+  xmlns:ao="https://oss.aoapps.com/taglib/"
+  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  xmlns:core="https://semanticcms.com/core/taglib/"
+  xmlns:jsp="http://java.sun.com/JSP/Page"
+  version="2.1"
 >
-	<jsp:directive.page language="java" pageEncoding="UTF-8" />
-	<jsp:directive.page session="false" />
-	<c:if test="${core:getCaptureLevel()==null}">
-		<ul>
-			<c:forEach var="childRef" items="${arg.page.childRefs}">
-				<li><core:link book="#{childRef.pageRef.bookName}" page="#{childRef.pageRef.path}" /></li>
-			</c:forEach>
-		</ul>
-	</c:if>
+  <jsp:directive.page language="java" pageEncoding="UTF-8" />
+  <jsp:directive.page session="false" />
+  <c:if test="${core:getCaptureLevel() == null}">
+    <ul>
+      <c:forEach var="childRef" items="${arg.page.childRefs}">
+        <li><core:link book="#{childRef.pageRef.bookName}" page="#{childRef.pageRef.path}" /></li>
+      </c:forEach>
+    </ul>
+  </c:if>
 </jsp:root>
