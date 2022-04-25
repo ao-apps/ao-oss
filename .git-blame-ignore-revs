@@ -10,3 +10,6 @@
 
 # Significant manual code formatting clean-up…
 96f99851ba28d6389929f199faa16a6b82ac00a2
+
+# Performed automatic source code clean-up with rewrite-maven-plugin
+00606834e4ee02cb1b5f79b44d56f95ca065f27b
