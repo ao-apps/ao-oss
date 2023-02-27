@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-oss - Open-source tools to assist developers in writing better software faster.
-Copyright (C) 2021, 2022  AO Industries, Inc.
+Copyright (C) 2021, 2022, 2023  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -48,6 +48,8 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
         repository="@{nexusUrl}content/repositories/snapshots/"
         scmUrl="@{project.scm.url}"
       >
+        <!-- TODO: Reproducible Central https://reproducible-builds.org/docs/jvm/ -->
+        <!-- TODO: OpenSSF like https://bestpractices.coreinfrastructure.org/en/projects/3370 -->
         <ul>
           <li>New aggregator project for all AO open-source software projects.</li>
           <li>Require secure session cookies in production.</li>
