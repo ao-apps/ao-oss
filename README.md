@@ -60,6 +60,7 @@ Open-source tools to assist developers in writing better software faster.
 * [NMW Payment Taglib](https://github.com/newmediaworks/nmw-payment-taglib)
 ### Web Development
 * [AO Badges](https://github.com/ao-apps/ao-badges)
+* [AO CDN](https://github.com/ao-apps/ao-cdn)
 * [AO Encoding Servlet](https://github.com/ao-apps/ao-encoding-servlet)
 * [AO Encoding Taglib](https://github.com/ao-apps/ao-encoding-taglib)
 * [AO Error Pages](https://github.com/ao-apps/ao-error-pages)

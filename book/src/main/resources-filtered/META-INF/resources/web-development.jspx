@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-oss - Open-source tools to assist developers in writing better software faster.
-Copyright (C) 2021, 2022  AO Industries, Inc.
+Copyright (C) 2021, 2022, 2023  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -32,10 +32,11 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
   <core:page
     title="Web Development"
     datePublished="2016-10-17T22:21:00-05:00"
-    dateModified="2021-10-26T22:28:21-05:00"
+    dateModified="2023-03-27T11:59:54Z"
   >
     <!-- Note: Changes here must also be applied to README.md -->
     <core:child book="/badges" page="/index.jspx" />
+    <core:child book="/cdn" page="/index.jspx" />
     <core:child book="/encoding/servlet" page="/index.jspx" />
     <core:child book="/encoding/taglib" page="/index.jspx" />
     <core:child book="/error-pages" page="/index.jspx" />
