@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-oss - Open-source tools to assist developers in writing better software faster.
-Copyright (C) 2021, 2022  AO Industries, Inc.
+Copyright (C) 2021, 2022, 2023  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -32,9 +32,10 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
   <core:page
     title="Maven Build"
     datePublished="2021-06-02T00:59:52-05:00"
-    dateModified="2022-04-14T21:16:36-05:00"
+    dateModified="2023-09-05T02:34:47Z"
   >
     <!-- Note: Changes here must also be applied to README.md -->
+    <core:child book="/ant-tasks" page="/index.jspx" />
     <core:child book="/checkstyle-config" page="/index.jspx" />
     <core:child book="/javadoc-offline" page="/index.jspx" />
     <core:child book="/javadoc-resources" page="/index.jspx" />

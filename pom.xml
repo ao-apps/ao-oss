@@ -166,6 +166,8 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
 
   <modules>
     <module>book</module>
+    <module>ant-tasks</module>
+    <module>ant-tasks/book</module>
     <module>appcluster</module>
     <module>badges-1.x</module>
     <module>badges-1.x/book</module>
