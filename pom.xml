@@ -158,11 +158,11 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
                 <id>verify-pgp-keys-map-match</id><phase>none</phase>
               </execution>
             </executions>
-                    </plugin>
+          </plugin>
         </plugins>
       </build>
     </profile>
-    </profiles>
+  </profiles>
 
   <modules>
     <module>book</module>
