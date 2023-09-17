@@ -32,6 +32,11 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
   <groupId>com.aoapps</groupId><artifactId>ao-oss</artifactId><version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <properties>
+    <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
+    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
+  </properties>
+
   <name>AO OSS</name>
   <url>https://oss.aoapps.com/</url>
   <description>Open-source tools to assist developers in writing better software faster.</description>
