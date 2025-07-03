@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-oss - Open-source tools to assist developers in writing better software faster.
-Copyright (C) 2021, 2022, 2023  AO Industries, Inc.
+Copyright (C) 2021, 2022, 2023, 2025  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -37,7 +37,7 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2021-05-28T22:51:12-05:00"
-    dateModified="2021-10-29T03:58:47-05:00"
+    dateModified="2025-07-02T23:05:45Z"
   >
     <c:set var="latestRelease" value="TODO" />
     <c:if test="${
@@ -50,7 +50,6 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
         version="@{project.version}"
         groupId="@{project.groupId}"
         artifactId="@{documented.artifactId}"
-        repository="@{nexusUrl}content/repositories/snapshots/"
         scmUrl="@{project.scm.url}"
       >
         <!-- TODO: Reproducible Central https://reproducible-builds.org/docs/jvm/ -->

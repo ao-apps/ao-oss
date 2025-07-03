@@ -19,7 +19,7 @@ Open-source tools to assist developers in writing better software faster.
 ## Project Links
 * [Project Home](https://oss.aoapps.com/)
 * [Changelog](https://oss.aoapps.com/changelog)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoapps/ao-oss)
+* [Central Repository](https://central.sonatype.com/artifact/com.aoapps/ao-oss)
 * [GitHub](https://github.com/ao-apps/ao-oss)
 
 ## Categories
