@@ -22,3 +22,6 @@ d7e7c8de99ee58693f5f375336606e5084449d07
 
 # Added all whitespace-only commits to .git-blame-ignore-revs
 b90fc7a04027458ca14f7bf9b3eb8b201bdeff73
+
+# Fixed indentation
+bc1594ef84e20263b815dea7a8812e2091a82e3d
