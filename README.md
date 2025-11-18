@@ -52,7 +52,7 @@ Open-source tools to assist developers in writing better software faster.
 * [AO Javadoc Resources](https://github.com/ao-apps/ao-javadoc-resources)
 * [AO OSS Parent](https://github.com/ao-apps/ao-oss-parent)
 * [AO PGP Keys Map](https://github.com/ao-apps/pgp-keys-map)
-* [Java™ EE Web Profile BOM](https://github.com/ao-apps/javaee-web-api-bom)
+* [Java™ EE Web Profile BOM](https://github.com/ao-apps/jakartaee-web-profile-bom)
 ### Messaging
 * [AO Messaging](https://github.com/ao-apps/ao-messaging)
 ### Payment Processing
@@ -83,7 +83,7 @@ Open-source tools to assist developers in writing better software faster.
 * [AO Web Framework](https://github.com/ao-apps/ao-web-framework)
 * [AO Web Resources](https://github.com/ao-apps/ao-web-resources)
 * [AOWeb Struts](https://github.com/ao-apps/aoweb-struts)
-* [Java™ EE Web Profile BOM](https://github.com/ao-apps/javaee-web-api-bom)
+* [Java™ EE Web Profile BOM](https://github.com/ao-apps/jakartaee-web-profile-bom)
 * [NMW Email Taglib](https://github.com/newmediaworks/nmw-email-taglib)
 * [NMW Payment Taglib](https://github.com/newmediaworks/nmw-payment-taglib)
 * [PragmaticKM](https://github.com/ao-apps/pragmatickm)

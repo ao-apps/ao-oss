@@ -108,7 +108,7 @@
   branch = master
 [submodule "javaee-web-api-bom"]
   path = javaee-web-api-bom
-  url = git@github.com:ao-apps/javaee-web-api-bom.git
+  url = git@github.com:ao-apps/jakartaee-web-profile-bom.git
   branch = master
 [submodule "lang"]
   path = lang
