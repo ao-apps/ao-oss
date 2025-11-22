@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-oss - Open-source tools to assist developers in writing better software faster.
-Copyright (C) 2021, 2022, 2023  AO Industries, Inc.
+Copyright (C) 2021, 2022, 2023, 2025  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -32,7 +32,7 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
   <core:page
     title="Maven Build"
     datePublished="2021-06-02T00:59:52-05:00"
-    dateModified="2023-09-05T02:34:47Z"
+    dateModified="2025-11-22T08:08:36Z"
   >
     <!-- Note: Changes here must also be applied to README.md -->
     <core:child book="/ant-tasks" page="/index.jspx" />
@@ -41,7 +41,7 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <core:child book="/javadoc-resources" page="/index.jspx" />
     <core:child book="/parent" page="/index.jspx" />
     <core:child book="/pgp-keys-map" page="/index.jspx" />
-    <core:child book="/javaee-web-api-bom" page="/index.jspx" />
+    <core:child book="/jakartaee-web-profile-bom" page="/index.jspx" />
     <ao:include page="ul-from-children.inc.jspx" arg.page="${currentPage}" />
   </core:page>
 </jsp:root>
