@@ -109,7 +109,7 @@
 [submodule "javaee-web-api-bom"]
   path = javaee-web-api-bom
   url = git@github.com:ao-apps/jakartaee-web-profile-bom.git
-  branch = master
+  branch = javaee
 [submodule "lang"]
   path = lang
   url = git@github.com:ao-apps/ao-lang.git
