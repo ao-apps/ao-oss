@@ -98,6 +98,10 @@
   path = io-posix
   url = git@github.com:ao-apps/ao-io-posix.git
   branch = master
+[submodule "jakartaee-web-profile-bom"]
+  path = jakartaee-web-profile-bom
+  url = git@github.com:ao-apps/jakartaee-web-profile-bom.git
+  branch = master
 [submodule "javadoc-offline"]
   path = javadoc-offline
   url = git@github.com:ao-apps/ao-javadoc-offline.git
