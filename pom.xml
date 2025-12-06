@@ -287,6 +287,8 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>web-framework</module>
     <module>web-framework/book</module>
     <module>web-resources</module>
+    <module>jakartaee-web-profile-bom</module>
+    <module>jakartaee-web-profile-bom/book</module>
     <module>javaee-web-api-bom</module>
     <module>javaee-web-api-bom/book</module>
     <module>website</module>
