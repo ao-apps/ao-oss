@@ -101,7 +101,7 @@
 [submodule "jakartaee-web-profile-bom"]
   path = jakartaee-web-profile-bom
   url = git@github.com:ao-apps/jakartaee-web-profile-bom.git
-  branch = master
+  branch = jakartaee
 [submodule "javadoc-offline"]
   path = javadoc-offline
   url = git@github.com:ao-apps/ao-javadoc-offline.git
