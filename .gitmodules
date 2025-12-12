@@ -53,15 +53,15 @@
 [submodule "encoding-servlet"]
   path = encoding-servlet
   url = git@github.com:ao-apps/ao-encoding-servlet.git
-  branch = master
+  branch = javaee
 [submodule "encoding-taglib"]
   path = encoding-taglib
   url = git@github.com:ao-apps/ao-encoding-taglib.git
-  branch = master
+  branch = javaee
 [submodule "error-pages"]
   path = error-pages
   url = git@github.com:ao-apps/ao-error-pages.git
-  branch = master
+  branch = javaee
 [submodule "fluent-html"]
   path = fluent-html
   url = git@github.com:ao-apps/ao-fluent-html.git
@@ -73,7 +73,7 @@
 [submodule "fluent-html-servlet"]
   path = fluent-html-servlet
   url = git@github.com:ao-apps/ao-fluent-html-servlet.git
-  branch = master
+  branch = javaee
 [submodule "fluent-html-util"]
   path = fluent-html-util
   url = git@github.com:ao-apps/ao-fluent-html-util.git
@@ -133,7 +133,7 @@
 [submodule "net-partial-url-servlet"]
   path = net-partial-url-servlet
   url = git@github.com:ao-apps/ao-net-partial-url-servlet.git
-  branch = master
+  branch = javaee
 [submodule "net-path-space"]
   path = net-path-space
   url = git@github.com:ao-apps/ao-net-path-space.git
@@ -165,23 +165,23 @@
 [submodule "servlet-filter"]
   path = servlet-filter
   url = git@github.com:ao-apps/ao-servlet-filter.git
-  branch = master
+  branch = javaee
 [submodule "servlet-firewall"]
   path = servlet-firewall
   url = git@github.com:ao-apps/ao-servlet-firewall.git
-  branch = master
+  branch = javaee
 [submodule "servlet-last-modified"]
   path = servlet-last-modified
   url = git@github.com:ao-apps/ao-servlet-last-modified.git
-  branch = master
+  branch = javaee
 [submodule "servlet-subrequest"]
   path = servlet-subrequest
   url = git@github.com:ao-apps/ao-servlet-subrequest.git
-  branch = master
+  branch = javaee
 [submodule "servlet-util"]
   path = servlet-util
   url = git@github.com:ao-apps/ao-servlet-util.git
-  branch = master
+  branch = javaee
 [submodule "sql"]
   path = sql
   url = git@github.com:ao-apps/ao-sql.git
@@ -205,11 +205,11 @@
 [submodule "style"]
   path = style
   url = git@github.com:ao-apps/ao-style.git
-  branch = master
+  branch = javaee
 [submodule "taglib"]
   path = taglib
   url = git@github.com:ao-apps/ao-taglib.git
-  branch = master
+  branch = javaee
 [submodule "tempfiles"]
   path = tempfiles
   url = git@github.com:ao-apps/ao-tempfiles.git
@@ -217,7 +217,7 @@
 [submodule "tempfiles-servlet"]
   path = tempfiles-servlet
   url = git@github.com:ao-apps/ao-tempfiles-servlet.git
-  branch = master
+  branch = javaee
 [submodule "tld-parser"]
   path = tld-parser
   url = git@github.com:ao-apps/ao-tld-parser.git
@@ -229,7 +229,7 @@
 [submodule "web-framework"]
   path = web-framework
   url = git@github.com:ao-apps/ao-web-framework.git
-  branch = master
+  branch = javaee
 [submodule "web-resources"]
   path = web-resources
   url = git@github.com:ao-apps/ao-web-resources.git
@@ -237,4 +237,4 @@
 [submodule "website"]
   path = website
   url = git@github.com:ao-apps/ao-oss-website.git
-  branch = master
+  branch = javaee
