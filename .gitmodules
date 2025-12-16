@@ -53,13 +53,25 @@
 [submodule "encoding-servlet"]
   path = encoding-servlet
   url = git@github.com:ao-apps/ao-encoding-servlet.git
+  branch = jakartaee
+[submodule "encoding-servlet-javaee"]
+  path = encoding-servlet-javaee
+  url = git@github.com:ao-apps/ao-encoding-servlet.git
   branch = javaee
 [submodule "encoding-taglib"]
   path = encoding-taglib
   url = git@github.com:ao-apps/ao-encoding-taglib.git
+  branch = jakartaee
+[submodule "encoding-taglib-javaee"]
+  path = encoding-taglib-javaee
+  url = git@github.com:ao-apps/ao-encoding-taglib.git
   branch = javaee
 [submodule "error-pages"]
   path = error-pages
+  url = git@github.com:ao-apps/ao-error-pages.git
+  branch = jakartaee
+[submodule "error-pages-javaee"]
+  path = error-pages-javaee
   url = git@github.com:ao-apps/ao-error-pages.git
   branch = javaee
 [submodule "fluent-html"]
@@ -72,6 +84,10 @@
   branch = master
 [submodule "fluent-html-servlet"]
   path = fluent-html-servlet
+  url = git@github.com:ao-apps/ao-fluent-html-servlet.git
+  branch = jakartaee
+[submodule "fluent-html-servlet-javaee"]
+  path = fluent-html-servlet-javaee
   url = git@github.com:ao-apps/ao-fluent-html-servlet.git
   branch = javaee
 [submodule "fluent-html-util"]
@@ -133,6 +149,10 @@
 [submodule "net-partial-url-servlet"]
   path = net-partial-url-servlet
   url = git@github.com:ao-apps/ao-net-partial-url-servlet.git
+  branch = jakartaee
+[submodule "net-partial-url-servlet-javaee"]
+  path = net-partial-url-servlet-javaee
+  url = git@github.com:ao-apps/ao-net-partial-url-servlet.git
   branch = javaee
 [submodule "net-path-space"]
   path = net-path-space
@@ -165,21 +185,41 @@
 [submodule "servlet-filter"]
   path = servlet-filter
   url = git@github.com:ao-apps/ao-servlet-filter.git
+  branch = jakartaee
+[submodule "servlet-filter-javaee"]
+  path = servlet-filter-javaee
+  url = git@github.com:ao-apps/ao-servlet-filter.git
   branch = javaee
 [submodule "servlet-firewall"]
   path = servlet-firewall
+  url = git@github.com:ao-apps/ao-servlet-firewall.git
+  branch = jakartaee
+[submodule "servlet-firewall-javaee"]
+  path = servlet-firewall-javaee
   url = git@github.com:ao-apps/ao-servlet-firewall.git
   branch = javaee
 [submodule "servlet-last-modified"]
   path = servlet-last-modified
   url = git@github.com:ao-apps/ao-servlet-last-modified.git
+  branch = jakartaee
+[submodule "servlet-last-modified-javaee"]
+  path = servlet-last-modified-javaee
+  url = git@github.com:ao-apps/ao-servlet-last-modified.git
   branch = javaee
 [submodule "servlet-subrequest"]
   path = servlet-subrequest
   url = git@github.com:ao-apps/ao-servlet-subrequest.git
+  branch = jakartaee
+[submodule "servlet-subrequest-javaee"]
+  path = servlet-subrequest-javaee
+  url = git@github.com:ao-apps/ao-servlet-subrequest.git
   branch = javaee
 [submodule "servlet-util"]
   path = servlet-util
+  url = git@github.com:ao-apps/ao-servlet-util.git
+  branch = jakartaee
+[submodule "servlet-util-javaee"]
+  path = servlet-util-javaee
   url = git@github.com:ao-apps/ao-servlet-util.git
   branch = javaee
 [submodule "sql"]
@@ -205,9 +245,17 @@
 [submodule "style"]
   path = style
   url = git@github.com:ao-apps/ao-style.git
+  branch = jakartaee
+[submodule "style-javaee"]
+  path = style-javaee
+  url = git@github.com:ao-apps/ao-style.git
   branch = javaee
 [submodule "taglib"]
   path = taglib
+  url = git@github.com:ao-apps/ao-taglib.git
+  branch = jakartaee
+[submodule "taglib-javaee"]
+  path = taglib-javaee
   url = git@github.com:ao-apps/ao-taglib.git
   branch = javaee
 [submodule "tempfiles"]
@@ -216,6 +264,10 @@
   branch = master
 [submodule "tempfiles-servlet"]
   path = tempfiles-servlet
+  url = git@github.com:ao-apps/ao-tempfiles-servlet.git
+  branch = jakartaee
+[submodule "tempfiles-servlet-javaee"]
+  path = tempfiles-servlet-javaee
   url = git@github.com:ao-apps/ao-tempfiles-servlet.git
   branch = javaee
 [submodule "tld-parser"]
@@ -229,6 +281,10 @@
 [submodule "web-framework"]
   path = web-framework
   url = git@github.com:ao-apps/ao-web-framework.git
+  branch = jakartaee
+[submodule "web-framework-javaee"]
+  path = web-framework-javaee
+  url = git@github.com:ao-apps/ao-web-framework.git
   branch = javaee
 [submodule "web-resources"]
   path = web-resources
@@ -236,5 +292,9 @@
   branch = master
 [submodule "website"]
   path = website
+  url = git@github.com:ao-apps/ao-oss-website.git
+  branch = jakartaee
+[submodule "website-javaee"]
+  path = website-javaee
   url = git@github.com:ao-apps/ao-oss-website.git
   branch = javaee

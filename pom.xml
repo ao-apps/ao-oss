@@ -197,11 +197,18 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>encoding/devel</module>
     <module>encoding-servlet</module>
     <module>encoding-servlet/book</module>
+    <module>encoding-servlet-javaee</module>
+    <module>encoding-servlet-javaee/book</module>
     <module>encoding-taglib</module>
     <module>encoding-taglib/book</module>
     <module>encoding-taglib/devel</module>
+    <module>encoding-taglib-javaee</module>
+    <module>encoding-taglib-javaee/book</module>
+    <module>encoding-taglib-javaee/devel</module>
     <module>error-pages</module>
     <module>error-pages/book</module>
+    <module>error-pages-javaee</module>
+    <module>error-pages-javaee/book</module>
     <module>fluent-html</module>
     <module>fluent-html/book</module>
     <module>fluent-html-any</module>
@@ -209,6 +216,8 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>fluent-html-any/devel</module>
     <module>fluent-html-servlet</module>
     <module>fluent-html-servlet/book</module>
+    <module>fluent-html-servlet-javaee</module>
+    <module>fluent-html-servlet-javaee/book</module>
     <module>fluent-html-util</module>
     <module>fluent-html-util/book</module>
     <module>hodgepodge</module>
@@ -236,6 +245,8 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>net-partial-url/book</module>
     <module>net-partial-url-servlet</module>
     <module>net-partial-url-servlet/book</module>
+    <module>net-partial-url-servlet-javaee</module>
+    <module>net-partial-url-servlet-javaee/book</module>
     <module>net-path-space</module>
     <module>net-path-space/book</module>
     <module>net-types</module>
@@ -252,14 +263,24 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>security/book</module>
     <module>servlet-filter</module>
     <module>servlet-filter/book</module>
+    <module>servlet-filter-javaee</module>
+    <module>servlet-filter-javaee/book</module>
     <module>servlet-firewall</module>
+    <module>servlet-firewall-javaee</module>
     <module>servlet-last-modified</module>
     <module>servlet-last-modified/book</module>
+    <module>servlet-last-modified-javaee</module>
+    <module>servlet-last-modified-javaee/book</module>
     <module>servlet-subrequest</module>
     <module>servlet-subrequest/book</module>
+    <module>servlet-subrequest-javaee</module>
+    <module>servlet-subrequest-javaee/book</module>
     <module>servlet-util</module>
     <module>servlet-util/book</module>
     <module>servlet-util/devel</module>
+    <module>servlet-util-javaee</module>
+    <module>servlet-util-javaee/book</module>
+    <module>servlet-util-javaee/devel</module>
     <module>sql</module>
     <module>sql/book</module>
     <module>sql/devel</module>
@@ -273,24 +294,34 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>sql-wrapper/book</module>
     <module>style</module>
     <module>style/book</module>
+    <module>style-javaee</module>
+    <module>style-javaee/book</module>
     <module>taglib</module>
     <module>taglib/book</module>
     <module>taglib/devel</module>
+    <module>taglib-javaee</module>
+    <module>taglib-javaee/book</module>
+    <module>taglib-javaee/devel</module>
     <module>tempfiles</module>
     <module>tempfiles/book</module>
     <module>tempfiles-servlet</module>
     <module>tempfiles-servlet/book</module>
+    <module>tempfiles-servlet-javaee</module>
+    <module>tempfiles-servlet-javaee/book</module>
     <module>tld-parser</module>
     <module>tld-parser/book</module>
     <module>tlds</module>
     <module>tlds/book</module>
     <module>web-framework</module>
     <module>web-framework/book</module>
+    <module>web-framework-javaee</module>
+    <module>web-framework-javaee/book</module>
     <module>web-resources</module>
     <module>jakartaee-web-profile-bom</module>
     <module>jakartaee-web-profile-bom/book</module>
     <module>javaee-web-api-bom</module>
     <module>javaee-web-api-bom/book</module>
     <module>website</module>
+    <module>website-javaee</module>
   </modules>
 </project>
