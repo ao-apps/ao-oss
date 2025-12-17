@@ -141,6 +141,10 @@
 [submodule "mime-mappings"]
   path = mime-mappings
   url = git@github.com:ao-apps/ao-mime-mappings.git
+  branch = jakartaee
+[submodule "mime-mappings-javaee"]
+  path = mime-mappings-javaee
+  url = git@github.com:ao-apps/ao-mime-mappings.git
   branch = javaee
 [submodule "net-partial-url"]
   path = net-partial-url

@@ -239,8 +239,8 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>lang/book</module>
     <module>lang/devel</module>
     <module>messaging</module>
-    <module>mime-mappings</module>
-    <module>mime-mappings/book</module>
+    <module>mime-mappings-javaee</module>
+    <module>mime-mappings-javaee/book</module>
     <module>net-partial-url</module>
     <module>net-partial-url/book</module>
     <module>net-partial-url-servlet</module>
