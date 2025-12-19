@@ -174,10 +174,10 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>ant-tasks</module>
     <module>ant-tasks/book</module>
     <module>appcluster</module>
-    <module>badges-1.x</module>
-    <module>badges-1.x/book</module>
     <module>badges</module>
     <module>badges/book</module>
+    <module>badges-javaee</module>
+    <module>badges-javaee/book</module>
     <module>cdn</module>
     <module>checkstyle-config</module>
     <module>checkstyle-config/book</module>
