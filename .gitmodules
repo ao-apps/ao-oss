@@ -9,7 +9,7 @@
 [submodule "badges"]
   path = badges
   url = git@github.com:ao-apps/ao-badges.git
-  branch = alpha
+  branch = jakartaee
 [submodule "badges-1.x"]
   path = badges-1.x
   url = git@github.com:ao-apps/ao-badges.git
