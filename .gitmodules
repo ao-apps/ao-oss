@@ -13,7 +13,7 @@
 [submodule "badges-1.x"]
   path = badges-1.x
   url = git@github.com:ao-apps/ao-badges.git
-  branch = 1.x
+  branch = javaee
 [submodule "cdn"]
   path = cdn
   url = git@github.com:ao-apps/ao-cdn.git
