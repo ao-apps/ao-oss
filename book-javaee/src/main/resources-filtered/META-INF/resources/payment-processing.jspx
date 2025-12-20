@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ao-oss - Open-source tools to assist developers in writing better software faster.
+Copyright (C) 2021, 2022  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
+
+This file is part of ao-oss.
+
+ao-oss is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ao-oss is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<jsp:root
+  xmlns:ao="https://oss.aoapps.com/taglib/"
+  xmlns:core="https://semanticcms.com/core/taglib/"
+  xmlns:jsp="http://java.sun.com/JSP/Page"
+  version="2.1"
+>
+  <jsp:directive.page language="java" pageEncoding="UTF-8" />
+  <jsp:directive.page session="false" />
+  <core:page
+    title="Payment Processing"
+    datePublished="2016-10-17T22:21:00-05:00"
+    dateModified="2021-06-02T00:59:52-05:00"
+  >
+    <!-- Note: Changes here must also be applied to README.md -->
+    <core:child book="/payments" page="/index.jspx" />
+    <core:child page="aoserv-credit-cards-redirect.jspx" />
+    <core:child page="nmw-payment-taglib-redirect.jspx" />
+    <ao:include page="ul-from-children.inc.jspx" arg.page="${currentPage}" />
+  </core:page>
+</jsp:root>
