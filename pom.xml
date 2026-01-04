@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-oss - Open-source tools to assist developers in writing better software faster.
-Copyright (C) 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
+Copyright (C) 2021, 2022, 2023, 2024, 2025, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -203,8 +203,6 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>tld-parser</module>
     <module>tlds</module>
     <module>web-resources</module>
-    <!-- TODO: Move to javaee profile once all jakartaee profile projects are actually updated to use jakartaee-web-profile-bom -->
-    <module>javaee-web-api-bom</module>
   </modules>
 
   <profiles>
@@ -300,6 +298,7 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
         <module>web-framework-javaee</module>
         <module>web-framework-javaee/book</module>
         <module>javaee-web-api-bom/book</module>
+        <module>javaee-web-api-bom</module>
         <module>website-javaee</module>
       </modules>
     </profile>
