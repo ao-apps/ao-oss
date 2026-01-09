@@ -298,7 +298,3 @@
   path = website
   url = git@github.com:ao-apps/ao-oss-website.git
   branch = jakartaee
-[submodule "website-javaee"]
-  path = website-javaee
-  url = git@github.com:ao-apps/ao-oss-website.git
-  branch = javaee

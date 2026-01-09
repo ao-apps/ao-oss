@@ -231,75 +231,23 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
         </property>
       </activation>
       <modules>
-        <module>book-javaee</module>
-        <module>ant-tasks/book-javaee</module>
         <module>badges-javaee</module>
-        <module>badges-javaee/book</module>
-        <module>checkstyle-config/book-javaee</module>
-        <module>collections/book-javaee</module>
-        <module>collections-transformers/book-javaee</module>
-        <module>concurrent/book-javaee</module>
-        <module>cron/book-javaee</module>
-        <module>dbc/book-javaee</module>
-        <module>encoding/book-javaee</module>
         <module>encoding-servlet-javaee</module>
-        <module>encoding-servlet-javaee/book</module>
         <module>encoding-taglib-javaee</module>
-        <module>encoding-taglib-javaee/book</module>
         <module>error-pages-javaee</module>
-        <module>error-pages-javaee/book</module>
-        <module>fluent-html/book-javaee</module>
-        <module>fluent-html-any/book-javaee</module>
         <module>fluent-html-servlet-javaee</module>
-        <module>fluent-html-servlet-javaee/book</module>
-        <module>fluent-html-util/book-javaee</module>
-        <module>hodgepodge/book-javaee</module>
-        <module>io-buffer/book-javaee</module>
-        <module>io-filesystems/book-javaee</module>
-        <module>io-filesystems-posix/book-javaee</module>
-        <module>io-posix/book-javaee</module>
-        <module>javadoc-offline/book-javaee</module>
-        <module>javadoc-resources/book-javaee</module>
-        <module>lang/book-javaee</module>
         <module>mime-mappings-javaee</module>
-        <module>mime-mappings-javaee/book</module>
-        <module>net-partial-url/book-javaee</module>
         <module>net-partial-url-servlet-javaee</module>
-        <module>net-partial-url-servlet-javaee/book</module>
-        <module>net-path-space/book-javaee</module>
-        <module>net-types/book-javaee</module>
-        <module>parent/book-javaee</module>
-        <module>persistence/book-javaee</module>
-        <module>pgp-keys-map/book-javaee</module>
-        <module>security/book-javaee</module>
         <module>servlet-filter-javaee</module>
-        <module>servlet-filter-javaee/book</module>
         <module>servlet-firewall-javaee</module>
         <module>servlet-last-modified-javaee</module>
-        <module>servlet-last-modified-javaee/book</module>
         <module>servlet-subrequest-javaee</module>
-        <module>servlet-subrequest-javaee/book</module>
         <module>servlet-util-javaee</module>
-        <module>servlet-util-javaee/book</module>
-        <module>sql/book-javaee</module>
-        <module>sql-failfast/book-javaee</module>
-        <module>sql-pool/book-javaee</module>
-        <module>sql-tracker/book-javaee</module>
-        <module>sql-wrapper/book-javaee</module>
         <module>style-javaee</module>
-        <module>style-javaee/book</module>
         <module>taglib-javaee</module>
-        <module>taglib-javaee/book</module>
-        <module>tempfiles/book-javaee</module>
         <module>tempfiles-servlet-javaee</module>
-        <module>tempfiles-servlet-javaee/book</module>
-        <module>tld-parser/book-javaee</module>
-        <module>tlds/book-javaee</module>
         <module>web-framework-javaee</module>
-        <module>web-framework-javaee/book</module>
-        <module>javaee-web-api-bom/book</module>
         <module>javaee-web-api-bom</module>
-        <module>website-javaee</module>
       </modules>
     </profile>
     <profile>
