@@ -237,16 +237,13 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
         <module>error-pages-javaee</module>
         <module>fluent-html-servlet-javaee</module>
         <module>mime-mappings-javaee</module>
-        <module>net-partial-url-servlet-javaee</module>
         <module>servlet-filter-javaee</module>
-        <module>servlet-firewall-javaee</module>
         <module>servlet-last-modified-javaee</module>
         <module>servlet-subrequest-javaee</module>
         <module>servlet-util-javaee</module>
         <module>style-javaee</module>
         <module>taglib-javaee</module>
         <module>tempfiles-servlet-javaee</module>
-        <module>web-framework-javaee</module>
         <module>javaee-web-api-bom</module>
       </modules>
     </profile>

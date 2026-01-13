@@ -154,10 +154,6 @@
   path = net-partial-url-servlet
   url = git@github.com:ao-apps/ao-net-partial-url-servlet.git
   branch = jakartaee
-[submodule "net-partial-url-servlet-javaee"]
-  path = net-partial-url-servlet-javaee
-  url = git@github.com:ao-apps/ao-net-partial-url-servlet.git
-  branch = javaee
 [submodule "net-path-space"]
   path = net-path-space
   url = git@github.com:ao-apps/ao-net-path-space.git
@@ -198,10 +194,6 @@
   path = servlet-firewall
   url = git@github.com:ao-apps/ao-servlet-firewall.git
   branch = jakartaee
-[submodule "servlet-firewall-javaee"]
-  path = servlet-firewall-javaee
-  url = git@github.com:ao-apps/ao-servlet-firewall.git
-  branch = javaee
 [submodule "servlet-last-modified"]
   path = servlet-last-modified
   url = git@github.com:ao-apps/ao-servlet-last-modified.git
@@ -286,10 +278,6 @@
   path = web-framework
   url = git@github.com:ao-apps/ao-web-framework.git
   branch = jakartaee
-[submodule "web-framework-javaee"]
-  path = web-framework-javaee
-  url = git@github.com:ao-apps/ao-web-framework.git
-  branch = javaee
 [submodule "web-resources"]
   path = web-resources
   url = git@github.com:ao-apps/ao-web-resources.git
