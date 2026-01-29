@@ -25,3 +25,6 @@ b90fc7a04027458ca14f7bf9b3eb8b201bdeff73
 
 # Fixed indentation
 bc1594ef84e20263b815dea7a8812e2091a82e3d
+
+# Workaround javadoc reproducibility limitations/bugs
+80ebb0334687954b4af99668aadbeae586918cbc
