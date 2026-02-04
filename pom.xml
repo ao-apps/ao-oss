@@ -231,7 +231,6 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
         </property>
       </activation>
       <modules>
-        <module>badges-javaee</module>
         <module>encoding-servlet-javaee</module>
         <module>encoding-taglib-javaee</module>
         <module>error-pages-javaee</module>

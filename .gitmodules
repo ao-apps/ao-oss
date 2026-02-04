@@ -10,10 +10,6 @@
   path = badges
   url = git@github.com:ao-apps/ao-badges.git
   branch = jakartaee
-[submodule "badges-javaee"]
-  path = badges-javaee
-  url = git@github.com:ao-apps/ao-badges.git
-  branch = javaee
 [submodule "cdn"]
   path = cdn
   url = git@github.com:ao-apps/ao-cdn.git
