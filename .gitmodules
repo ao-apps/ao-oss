@@ -142,18 +142,6 @@
   path = mime-mappings-javaee
   url = git@github.com:ao-apps/ao-mime-mappings.git
   branch = javaee
-[submodule "net-partial-url"]
-  path = net-partial-url
-  url = git@github.com:ao-apps/ao-net-partial-url.git
-  branch = master
-[submodule "net-partial-url-servlet"]
-  path = net-partial-url-servlet
-  url = git@github.com:ao-apps/ao-net-partial-url-servlet.git
-  branch = jakartaee
-[submodule "net-path-space"]
-  path = net-path-space
-  url = git@github.com:ao-apps/ao-net-path-space.git
-  branch = master
 [submodule "net-types"]
   path = net-types
   url = git@github.com:ao-apps/ao-net-types.git
@@ -186,10 +174,6 @@
   path = servlet-filter-javaee
   url = git@github.com:ao-apps/ao-servlet-filter.git
   branch = javaee
-[submodule "servlet-firewall"]
-  path = servlet-firewall
-  url = git@github.com:ao-apps/ao-servlet-firewall.git
-  branch = jakartaee
 [submodule "servlet-last-modified"]
   path = servlet-last-modified
   url = git@github.com:ao-apps/ao-servlet-last-modified.git

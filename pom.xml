@@ -180,8 +180,6 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
     <module>lang</module>
     <module>lang/devel</module>
     <module>messaging</module>
-    <module>net-partial-url</module>
-    <module>net-path-space</module>
     <module>net-types</module>
     <module>net-types/devel</module>
     <module>parent</module>
@@ -287,10 +285,6 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
         <module>lang/book</module>
         <module>mime-mappings</module>
         <module>mime-mappings/book</module>
-        <module>net-partial-url/book</module>
-        <module>net-partial-url-servlet</module>
-        <module>net-partial-url-servlet/book</module>
-        <module>net-path-space/book</module>
         <module>net-types/book</module>
         <module>parent/book</module>
         <module>persistence/book</module>
@@ -298,7 +292,6 @@ along with ao-oss.  If not, see <https://www.gnu.org/licenses/>.
         <module>security/book</module>
         <module>servlet-filter</module>
         <module>servlet-filter/book</module>
-        <module>servlet-firewall</module>
         <module>servlet-last-modified</module>
         <module>servlet-last-modified/book</module>
         <module>servlet-subrequest</module>
